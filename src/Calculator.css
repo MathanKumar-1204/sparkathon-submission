@@ -1,0 +1,55 @@
+.Bar{
+    height:390px;
+    width: 80%;
+    display: block;
+    
+}
+h3,p{
+    display: inline;
+}
+.chome{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+      
+  .ctitle{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .ccalc{
+    text-align: center;
+    
+    background-color: grey;
+  }
+  .cstock{
+    margin-left: 20px;
+    text-align: center;
+   
+  }
+  .ct {
+    color: black;
+  
+  }
+  .clog{
+    margin-top: 300px;
+    margin-left: 20px;
+  }
+  .cdistribute{
+  
+    margin-left: 20px;
+    text-align: center;
+  }
+.bar{
+    height: 350px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2) ;
+
+}
+.b{
+    height: 50px;
+    width: 200px;
+}
+.calculator-page{
+    height: 300px;
+}

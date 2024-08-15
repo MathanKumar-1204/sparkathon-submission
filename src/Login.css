@@ -1,0 +1,89 @@
+
+
+input{
+    height: 30px;
+    width: 300px;
+    font-size: 15px;
+    outline: none;
+    border:1px solid silver;
+    padding-left: 22px;
+    padding-top: 5px;
+
+}
+button:hover {
+    background-color: #0056b3; /* Darker color for hover effect */
+    box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+button:active {
+    background-color: #004494; /* Darker shade when clicked */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3); /* Inner shadow effect */
+}
+
+.form-group{
+    margin-top:15px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+button {
+    height: 35px;
+    width: 300px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: medium;
+}
+.h{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    color: blue;
+    margin-top: 50px;
+}
+.a{
+    padding-top: 10px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.login-page {
+    height: 100vh; /* Use viewport height for the full page height */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,95,120,1) 62%, rgba(140,49,26,1) 100%, rgba(0,212,255,1) 100%, rgba(153,158,25,0.9928624079777644) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center content vertically and horizontally */
+}
+
+.login-container {
+    height: auto; /* Allow container to grow based on its content */
+    background: #fff; /* You can specify a background color if needed */
+    border-radius: 10px; /* Optional: Add border radius for a rounded effect */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Add shadow for better appearance */
+    
+}
+
+/* Other styles */
+.f {
+    height: 300px;
+    width: 400px;
+    border-style: groove;
+    border-color: blue;
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    position: relative;
+    
+}
+
